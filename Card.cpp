@@ -60,6 +60,6 @@ void Card::Print()
         std::cout << "D";
     else if (Suit == CLUBS)
         std::cout << "C";
-    if (Suit == SPADES)
+    else if (Suit == SPADES)
         std::cout << "S";
 }
